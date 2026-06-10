@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrofloresta: O Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Agrinho 2026 🌿</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">O que é?</a></li>
+                <li><a href="#ecologia">Ecologia</a></li>
+                <li><a href="#casos">Casos de Sucesso</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#fontes">Fontes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Cultivando um Futuro Sustentável</h1>
+            <p>Descubra como a Agrofloresta une a produção de alimentos com a conservação da natureza.</p>
+            <button id="btnSaibaMais">Saber Mais</button>
+        </div>
+    </section>
+
+    <section id="sobre" class="conteudo">
+        <h2>O que é Agrofloresta?</h2>
+        <p>Esqueça a ideia de que para plantar comida precisamos derrubar a floresta. A Agrofloresta (ou Sistema Agroflorestal - SAF) é um modelo de agricultura que planta alimentos junto com árvores nativas. Ela imita o funcionamento de uma floresta natural, trazendo vantagens tanto para o agricultor quanto para o meio ambiente.</p>
+    </section>
+
+    <section id="ecologia" class="conteudo secao-clara">
+        <h2>A Ecologia por trás das Agroflorestas</h2>
+        <p class="subtitulo">Como a ciência da natureza faz o sistema funcionar sozinho:</p>
+        
+        <div class="ecologia-container">
+            <div class="eco-card">
+                <h3>Estrutura em Camadas (Estratiﬁcação)</h3>
+                <p>Em uma floresta, existem plantas de todos os tamanhos. No SAF é igual: plantas rasteiras (como abóbora) aproveitam o chão; arbustos (como café) ficam no meio; e grandes árvores cobrem o topo. Isso faz com que a luz do sol seja aproveitada ao máximo por todos.</p>
+            </div>
+            <div class="eco-card">
+                <h3>Sucessão Natural</h3>
+                <p>O sistema passa por fases. Primeiro, plantas que crescem rápido (como o milho e a banana) preparam o terreno e criam sombra. Depois, árvores que demoram mais para crescer (como o mogno ou o cacau) assumem o espaço. O ciclo nunca para!</p>
+            </div>
+            <div class="eco-card">
+                <h3>Ciclagem de Nutrientes</h3>
+                <p>As árvores profundas puxam nutrientes do fundo da terra. Quando suas folhas caem no chão, elas apodrecem e viram adubo natural para as plantas menores. Não é preciso usar fertilizantes químicos!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="casos" class="conteudo secao-escura">
+        <h2>Modelos Reais de Sucesso</h2>
+        
+        <div class="caso-bloco">
+            <div class="caso-imagem">
+                <img src="https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=500&q=80" alt="Plantação de Cacau em Agrofloresta">
+            </div>
+            <div class="caso-texto">
+                <h3>O Berço: Tomé-Açu (PA) e o SAFTA</h3>
+                <p>Na década de 1960, imigrantes japoneses consolidaram o <strong>SAFTA (Sistema Agroflorestal de Tomé-Açu)</strong> após uma doença destruir suas plantações de pimenta-do-reino. Eles perceberam que a monocultura era frágil e decidiram imitar a biodiversidade da Amazônia.</p>
+                <p><strong>Dados Econômicos:</strong> Hoje, a cooperativa local (CAMTA) exporta polpas de frutas tropicais (açaí, cupuaçu) e amêndoas de cacau fino para o mundo inteiro, incluindo o Japão. Esse modelo garante que o agricultor tenha produtos para vender e gerar renda durante os 12 meses do ano.</p>
+            </div>
+        </div>
+
+        <div class="caso-bloco invertido">
+            <div class="caso-imagem">
+                <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=500&q=80" alt="Árvores nativas e agricultura">
+            </div>
+            <div class="caso-texto">
+                <h3>Agrofloresta no Paraná: Patrimônio Agrícola Mundial</h3>
+                <p>Aqui no Paraná, o grande destaque é o <strong>Sistema Tradicional da Erva-Mate Sombreada</strong>, praticado principalmente no centro-sul do estado. Esse sistema agroflorestal foi oficialmente reconhecido pela **FAO (ONU)** como um Sistema Importante do Patrimônio Agrícola Mundial (SIPAM), sendo o primeiro do Sul do Brasil a receber esse título internacional!</p>
+                <p><strong>Sustentabilidade e Economia Regional:</strong> A erva-mate cultivada sob a sombra das Araucárias e outras árvores nativas da Mata Atlântica possui sabor mais suave e maior valor de mercado. Para complementar a renda e proteger a floresta, as famílias também utilizam o **pinhão** na culinária e comercialização, além de produzirem mel e frutas nativas. Esse manejo sustentável está em processo para ser reconhecido também como Patrimônio Cultural do Estado.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="conteudo cards">
+        <h2>Pilares da Agrofloresta</h2>
+        <div class="card-container">
+            <div class="card" onclick="mostrarDica('Solo vivo: As folhas que caem viram adubo natural!')">
+                <h3>🌱 Solo</h3>
+                <p>Clique para ver a dica do solo.</p>
+            </div>
+            <div class="card" onclick="mostrarDica('Água pura: As raízes das árvores protegem as nascentes e seguram a umidade!')">
+                <h3>💧 Água</h3>
+                <p>Clique para ver a dica da água.</p>
+            </div>
+            <div class="card" onclick="mostrarDica('Clima equilibrado: As árvores ajudam a reduzir o calor e purificam o ar!')">
+                <h3>☀️ Clima</h3>
+                <p>Clique para ver a dica do clima.</p>
+            </div>
+        </div>
+        <div id="caixaDica" class="caixa-alerta escondido"></div>
+    </section>
+
+    <section id="fontes" class="conteudo secao-clara">
+        <h2>Fontes e Referências Científicas</h2>
+        <p class="subtitulo">Toda a pesquisa deste site foi baseada em dados oficiais e estudos académicos:</p>
+        <div class="fontes-links">
+            <ul>
+                <li>
+                    <span>Fundo Vale:</span> 
+                    <a href="https://www.fundovale.org/noticia/sistema-agroflorestal-de-tome-acu-torna-se-exemplo-de-desenvolvimento-sustentavel-na-amazonia/" target="_blank">O caso de sucesso do SAFTA na Amazônia</a>
+                </li>
+                <li>
+                    <span>Fundação Banco do Brasil:</span> 
+                    <a href="https://transforma.fbb.org.br/tecnologia-social/sistema-agroflorestal-de-tome-acu-safta-tecnologia-social-da-amazonia" target="_blank">SAFTA como Tecnologia Social Certificada</a>
+                </li>
+                <li>
+                    <span>Embrapa:</span> 
+                    <a href="https://www.embrapa.br/busca-de-noticias/-/noticia/87616768/sistemas-agroflorestais-do-para-sao-exemplos-de-producao-sustentavel" target="_blank">Exemplos de Produção Sustentável e Sistemas Agroflorestais</a>
+                </li>
+                <li>
+                    <span>Universidade Federal Rural da Amazônia (UFRA):</span> 
+                    <a href="https://bdta.ufra.edu.br/jspui/handle/123456789/2182" target="_blank">Biblioteca Digital de Teses sobre o SAFTA</a>
+                </li>
+                <li>
+                    <span>Periódicos UFSM:</span> 
+                    <a href="https://periodicos.ufsm.br/rgc/article/view/85020/66655" target="_blank">Estudo científico sobre o impacto económico da Cooperativa CAMTA</a>
+                </li>
+                
+                <li>
+                    <span>ONU Brasil / FAO:</span> 
+                    <a href="https://brasil.un.org/pt-br/294746-sistema-tradicional-da-erva-mate-no-paran%C3%A1-%C3%A9-reconhecido-como-sistema-importante-do" target="_blank">Reconhecimento da Erva-Mate do Paraná como SIPAM pela ONU</a>
+                </li>
+                <li>
+                    <span>Assembleia Legislativa do PR:</span> 
+                    <a href="https://www.assembleia.pr.leg.br/comunicacao/noticias/producao-da-erva-mate-sombreada-pode-ser-reconhecida-como-patrimonio-cultural" target="_blank">Erva-Mate Sombreada como Património Cultural do Estado</a>
+                </li>
+                <li>
+                    <span>IDR-Paraná:</span> 
+                    <a href="https://www.idrparana.pr.gov.br/Noticia/Erva-mate-reconhecimento-da-FAO-e-premio-cooperacao-institucional-afirma-diretora-do-IDR" target="_blank">Reconhecimento da FAO e Cooperação Institucional</a>
+                </li>
+                <li>
+                    <span>Agência Estadual de Notícias (PR):</span> 
+                    <a href="https://www.parana.pr.gov.br/aen/Noticia/Cultivo-de-erva-mate-do-Parana-vira-Patrimonio-Agricola-Mundial-das-Nacoes-Unidas" target="_blank">Cultivo de Erva-Mate vira Patrimônio Agrícola Mundial</a>
+                </li>
+                <li>
+                    <span>Epagri (SC):</span> 
+                    <a href="https://www.epagri.sc.gov.br/sabor-de-preservacao-epagri-estimula-a-producao-de-erva-mate-em-agroflorestas/" target="_blank">Sabor de preservação: Estímulo à Erva-Mate em Agroflorestas</a>
+                </li>
+                <li>
+                    <span>CEDERVA:</span> 
+                    <a href="https://www.cederva.org/post/erva-mate-sombreada-do-paran%C3%A1-%C3%A9-reconhecida-pela-fao-como-patrim%C3%B4nio-agr%C3%ADcola-m" target="_blank">Centro de Desenvolvimento da Erva-Mate do Paraná</a>
+                </li>
+                <li>
+                    <span>CONTRAF Brasil:</span> 
+                    <a href="https://contrafbrasil.org.br/noticias/erva-mate-sombreada-do-parana-recebe-reconhecimento-internacional-da-fao-como-si-67e5" target="_blank">Destaque Internacional do Sistema Agroflorestal Paranaense</a>
+                </li>
+                <li>
+                    <span>Portal MST:</span> 
+                    <a href="https://mst.org.br/2024/05/31/como-o-uso-do-pinhao-na-culinaria-contribui-para-preservar-a-mata-atlantica/" target="_blank">Como o uso do Pinhão na culinária ajuda a preservar a Mata Atlântica</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Concurso Agrinho - Paraná. Desenvolvido por Aluno do 1º Ano EM.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
